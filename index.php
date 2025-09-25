@@ -14,6 +14,20 @@ require_once Chemins::CONFIGS . 'variables_globales.class.php';
 // Inclure le menu par défaut pour les utilisateurs non connectés
 require Chemins::VUES_PERMANENTES . 'v_header.inc.php';
 require Chemins::VUES . 'v_accueil.inc.php';
-
+// // Gestion dynamique du contrôleur
+// $classeControleur = 'Controleur' . $_REQUEST['controleur']; // ex : ControleurProduits
+// $fichierControleur = $classeControleur . ".class.php"; // ex : ControleurProduits.class.php
+// require_once(Chemins::CONTROLEURS . $fichierControleur);
+// if (isset($_REQUEST['action'])) {
+//     $action = $_REQUEST['action']; // ex : afficher
+//     $objetControleur = new $classeControleur(); // ex : $objetControleur = new ControleurProduits();
+//     // Vérifiez que l'action existe dans le contrôleur
+//     if (method_exists($objetControleur, $action)) {
+//         $objetControleur->$action(); // ex : $objetControleur->afficher();
+//     } else {
+//         // Gérer le cas où l'action n'existe pas
+//         echo "Action non valide : " . htmlspecialchars($action);
+//     }
+// }
 
 require Chemins::VUES_PERMANENTES . 'v_pied.inc.php'; // Footer commun

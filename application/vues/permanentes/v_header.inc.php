@@ -3,20 +3,27 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo Chemins::STYLES . "style.css" ?>" />
+    <link rel="icon" href="<?php echo Chemins::IMAGES . 'photoRewannIa' ?>">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
+
+
+    <header class="header" id="header">
+        <div class="burger" id="burger">
+            ☰
+        </div>
         <p class="Name">Tannou Rewann</p>
         <nav class="navBar">
-            <ul class="conteneurList" id="accueil">
-                <li class="liste"><a href="#accueil">Accueil</a></li>
-                <li class="liste"><a href="#MesDocuments">Mes documents</a></li>
-                <li class="liste"><a href="#projets">Mes projets</a></li>
-                <li class="liste"><a href="#competences">Mes compétences</a></li>
-                <li class="liste"><a href="#contact">Me contacter</a></li>
+            <ul class="conteneurList" id="menu">
+                <li><a href="#presentation" class="active">Accueil</a></li>
+                <li><a href="#MesDocuments" class="active">Mes documents</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
