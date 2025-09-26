@@ -27,6 +27,14 @@
                 <img src="<?php echo Chemins::IMAGES . "instagram.png" ?>" alt="Instagram" height="24" width="24">
                 <span>Instagram</span>
             </a>
+            <a href="<?php echo Chemins::DOCUMENTS . 'CV_TANNOU_Rewann.pdf' ?>" id="CV" class="social-btn flex-center" target="_blank">
+                <img src="<?php echo Chemins::IMAGES . "cv.png" ?>" alt="CV" height="24" width="24">
+                <span>CV</span>
+            </a>
+            <a href="<?php echo Chemins::DOCUMENTS . 'LettreDeMotivation_TannouRewann.pdf' ?>" id="instagram" class="social-btn flex-center" target="_blank">
+                <img src="<?php echo Chemins::IMAGES . "courrier.png" ?>" alt="Lettre de motivation" height="24" width="24">
+                <span>LDM</span>
+            </a>
         </div>
 
     </article>
@@ -148,28 +156,5 @@
         </div>
     </div>
 </section>
-<section class="contact" id="contact">
-    <h1>Contactez-moi</h1>
-    <div class="container">
-        <form class="form" method="POST">
-            <div class="descr">Envoyez-moi un message</div>
 
-            <div class="input">
-                <input required autocomplete="off" type="text" id="name" name="name" placeholder="Name">
-            </div>
-
-            <div class="input">
-                <input required autocomplete="off" type="email" id="email" name="email" placeholder="E-mail">
-
-            </div>
-
-            <div class="input">
-                <textarea required cols="30" rows="3" id="message" name="message" placeholder="Message"></textarea>
-
-            </div>
-
-            <button type="submit">Envoyer →</button>
-        </form>
-    </div>
-</section>
-<button id="backToTop" title="Remonter ↑"><a href="#header"><img src="<?php echo Chemins::IMAGES . "chevron-double-up.png" ?>" alt=""></a></button>
+<button id="backToTop" title="Remonter ↑"><a href="#header"><img src="<?php echo Chemins::IMAGES . "fleche-haut.png" ?>" alt=""></a></button>

@@ -47,10 +47,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// // Clique = retour en haut fluide
-// backToTop.addEventListener("click", () => {
-//   window.scrollTo({ top: 0, behavior: "smooth" });
-// });
 /*deplacement fluide jusqu'à l'ancrage */
 
 // Sélectionne tous les liens d'ancrage (href commençant par #)
