@@ -1,18 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1 {
   color: #0073e6;
 }
 body {
-  background: #232526; /* fallback */
+  background: #232526;
   background: -webkit-linear-gradient(
     to right,
     #414345,
     #232526
   ); /* Chrome/Safari */
-  background: linear-gradient(to right, #414345, #232526); /* standard */
+  background: linear-gradient(to right, #414345, #232526);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* facultatif : fixe le fond */
-  min-height: 100vh; /* important pour mobile */
+  background-attachment: fixed;
+  min-height: 100vh;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -741,8 +746,8 @@ footer {
   /* Projets */
   .projects {
     display: grid;
-    grid-template-columns: 45% 1fr;
-    gap: 5px;
+    grid-template-columns: 45% 45%;
+    gap: 15px;
     justify-items: center;
     padding: 0 10px;
     margin: 0 auto auto;
@@ -758,11 +763,11 @@ footer {
   }
 
   .card__title {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .card__description {
-    font-size: 9px;
+    font-size: 7px;
   }
 
   /* Compétences */
@@ -809,13 +814,18 @@ footer {
   .input textarea {
     width: 60%;
   }
-
+  .wrap {
+    align-items: normal;
+  }
   /* Footer */
   footer {
     font-size: 14px;
     padding: 20px 10px;
     width: 100%;
     box-sizing: border-box;
+  }
+  .footer-nav li:nth-child(2) {
+    display: none;
   }
 
   .footer-socials a img {
@@ -897,6 +907,9 @@ footer {
 
   .container {
     width: 80%;
+  }
+  .footer-nav li:nth-child(2) {
+    display: none;
   }
 }
 /* Desktop - plus de 1024px */
