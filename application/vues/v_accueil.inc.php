@@ -154,6 +154,38 @@
             <img src="<?php echo Chemins::IMAGES . "githubicon.png" ?>" alt="GitHub">
             <span class="skill-name">GitHub</span>
         </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "api.png" ?>" alt="API">
+            <span class="skill-name">Api</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "Csharp.png" ?>" alt="C#">
+            <span class="skill-name">C#</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "sqlServer.png" ?>" alt="Sql Server">
+            <span class="skill-name">Sql Server</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "Powerapps.png" ?>" alt="Power apps">
+            <span class="skill-name">Power Apps</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "powerAutomate.png" ?>" alt="Power Automate">
+            <span class="skill-name">Power Automate</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "SharePoint.png" ?>" alt="SharePoint">
+            <span class="skill-name">Share Point</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "Ajax.png" ?>" alt="Ajax">
+            <span class="skill-name">Ajax</span>
+        </div>
+        <div class="skill">
+            <img src="<?php echo Chemins::IMAGES . "jquerry.png" ?>" alt="Jquerry">
+            <span class="skill-name">Jquerry</span>
+        </div>
     </div>
 </section>
 

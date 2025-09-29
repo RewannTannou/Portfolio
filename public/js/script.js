@@ -23,7 +23,7 @@ const thumbnails = document.querySelectorAll('.pdf-thumbnail');
 
 thumbnails.forEach(img => {
   img.addEventListener('click', () => {
-    const pdfPath = img.dataset.pdf; // récupère automatiquement le nom
+    const pdfPath = img.dataset.pdf; 
     window.open(pdfPath, '_blank');
   });
   });
@@ -35,10 +35,10 @@ function toggleFlip(cardId) {
   card.classList.toggle('show');
 }
 
-// Sélection du bouton
+
 const backToTop = document.getElementById("backToTop");
 
-// Affiche le bouton seulement quand on descend assez
+
 window.addEventListener("scroll", () => {
   if (document.documentElement.scrollTop > 200) {
     backToTop.style.display = "block";
