@@ -179,7 +179,7 @@
             <span class="skill-name">Share Point</span>
         </div>
         <div class="skill">
-            <img src="<?php echo Chemins::IMAGES . "Ajax.png" ?>" alt="Ajax">
+            <img src="<?php echo Chemins::IMAGES . "ajax.png" ?>" alt="Ajax">
             <span class="skill-name">Ajax</span>
         </div>
         <div class="skill">

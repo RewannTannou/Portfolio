@@ -43,7 +43,7 @@
         <p class="footer-copy">&copy; 2025 TANNOU Rewann - Portfolio. Tous droits réservés.</p>
     </div>
 </footer>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="<?php echo Chemins::JS . "/script.js" ?>"></script>
 </body>
 
