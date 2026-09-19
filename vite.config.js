@@ -3,8 +3,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  // Served at https://rewanntannou.github.io/NewPortfolio/ in production,
+  // Served at https://rewanntannou.github.io/portfolio/ in production,
   // but kept at "/" for local dev so the dev server URL is unaffected.
-  base: command === 'build' ? '/NewPortfolio/' : '/',
+  base: command === 'build' ? '/portfolio/' : '/',
   plugins: [react()],
 }))
