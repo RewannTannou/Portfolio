@@ -1,5 +1,5 @@
-import photo from '../assets/images/photoRewann.JPG'
-import { socialLinks } from '../data/social'
+import photo from "../assets/images/Rewann_Tannou.jpg";
+import { socialLinks } from "../data/social";
 
 function Hero() {
   return (
@@ -13,8 +13,8 @@ function Hero() {
         </h1>
         <p className="presentation__text">
           Étudiant à Epitech, passionné par le développement et les nouvelles
-          technologies. Toujours curieux d'apprendre, je cherche à progresser
-          en travaillant sur des projets concrets et innovants.
+          technologies. Toujours curieux d'apprendre, je cherche à progresser en
+          travaillant sur des projets concrets et innovants.
         </p>
         <div className="social-links">
           {socialLinks.map((link) => (
@@ -36,7 +36,7 @@ function Hero() {
         <img src={photo} alt="Photo de Rewann Tannou" className="picture" />
       </aside>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

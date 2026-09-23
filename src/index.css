@@ -261,6 +261,7 @@ main > section {
   width: min(320px, 78vw);
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center 20%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   filter: sepia(0.18) saturate(0.85);
