@@ -12,7 +12,20 @@ function Projects() {
             <span className="project-row__index">{project.index}</span>
 
             <div className="project-row__body">
-              <h3 className="project-row__title">{project.title}</h3>
+              <h3 className="project-row__title">
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    className="project-row__link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {project.title}
+                  </a>
+                ) : (
+                  project.title
+                )}
+              </h3>
               <p className="project-row__description">
                 {project.description}
               </p>
@@ -23,13 +36,19 @@ function Projects() {
               </div>
             </div>
 
-            <span className="project-row__arrow">↗</span>
+            {project.link && (
+              <span className="project-row__arrow" aria-hidden="true">
+                ↗
+              </span>
+            )}
 
-            <img
-              src={project.image}
-              alt={project.title}
-              className="project-row__preview"
-            />
+            {project.image && (
+              <img
+                src={project.image}
+                alt=""
+                className="project-row__preview"
+              />
+            )}
           </li>
         ))}
       </ul>

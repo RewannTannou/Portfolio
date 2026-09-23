@@ -1,15 +1,15 @@
 export const skillCategories = [
   {
     category: 'Langages & frameworks',
-    items: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Python', 'C#'],
+    items: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'PHP', 'Python', 'Java', 'C#'],
   },
   {
     category: 'Data & API',
-    items: ['MySQL', 'SQL Server', 'API', 'Ajax', 'jQuery'],
+    items: ['MySQL', 'PostgreSQL', 'SQL Server', 'API REST', 'WebSockets', 'Ajax', 'jQuery'],
   },
   {
     category: 'Outils',
-    items: ['Git', 'GitHub'],
+    items: ['Git', 'GitHub', 'Docker', 'Jenkins'],
   },
   {
     category: 'Microsoft 365',

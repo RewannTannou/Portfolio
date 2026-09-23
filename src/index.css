@@ -449,6 +449,18 @@ main > section {
   color: var(--accent-1);
 }
 
+.project-row__link {
+  text-decoration: none;
+}
+
+/* Rend toute la ligne cliquable */
+.project-row__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
 .project-row__description {
   margin-top: 12px;
   max-width: 60ch;
