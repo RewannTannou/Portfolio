@@ -354,6 +354,64 @@ main > section {
   opacity: 0.85;
 }
 
+/* Experience */
+.timeline {
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 32px;
+  padding: 38px 8px;
+  border-bottom: 1px solid var(--line);
+  transition: background 0.2s ease;
+}
+
+.timeline-item:hover {
+  background: rgba(43, 42, 39, 0.025);
+}
+
+.timeline-item__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 6px;
+}
+
+.timeline-item__period {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--accent-1);
+}
+
+.timeline-item__location {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.timeline-item__company {
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+}
+
+.timeline-item__role {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.timeline-item__description {
+  margin-top: 12px;
+  max-width: 62ch;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
 /* Projects */
 .project-list {
   border-top: 1px solid var(--line);
@@ -754,6 +812,17 @@ footer {
 
   .pdf-section {
     display: none;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .timeline-item__meta {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12px;
   }
 
   .project-row {

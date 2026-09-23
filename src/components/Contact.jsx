@@ -26,7 +26,7 @@ function Contact() {
 
   return (
     <section className="contact" id="contact">
-      <p className="eyebrow">05 — Contact</p>
+      <p className="eyebrow">06 — Contact</p>
       <h2 className="section-title">Discutons ensemble</h2>
 
       <a className="contact__email" href={`mailto:${CONTACT_EMAIL}`}>

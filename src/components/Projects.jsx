@@ -3,7 +3,7 @@ import { projects } from '../data/projects'
 function Projects() {
   return (
     <section className="projects" id="projets">
-      <p className="eyebrow">03 — Projets</p>
+      <p className="eyebrow">04 — Projets</p>
       <h2 className="section-title">Mes projets</h2>
 
       <ul className="project-list">

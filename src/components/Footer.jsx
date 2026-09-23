@@ -19,6 +19,9 @@ function Footer() {
               </a>
             </li>
             <li>
+              <a href="#experiences">Expériences</a>
+            </li>
+            <li>
               <a href="#projets">Projets</a>
             </li>
             <li>

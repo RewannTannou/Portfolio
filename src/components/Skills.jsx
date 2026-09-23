@@ -3,7 +3,7 @@ import { skillCategories } from '../data/skills'
 function Skills() {
   return (
     <section className="competences" id="competences">
-      <p className="eyebrow">04 — Compétences</p>
+      <p className="eyebrow">05 — Compétences</p>
       <h2 className="section-title">Mes compétences</h2>
 
       <div className="skill-groups">
